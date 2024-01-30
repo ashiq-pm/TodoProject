@@ -1,0 +1,57 @@
+.banner{
+background-color: #75C1D8;
+margin-bottom: 50px;
+width: 100%;
+height: 150px;
+font-family: 'Brush Script MT', cursive;
+}
+.banner-text{
+top: 10%;
+left: 47%;
+position: absolute;
+transform: transform;
+color: #EED971;
+text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue
+}
+.card{
+background-color: #EEF08D;
+font-family: 'Times New Roman', serif;
+color: black;
+}
+body {
+ background-color: #FCFAA4;
+}
+.todo-container {
+  max-width: 400px;
+  margin: 50px auto;
+}
+.form{
+ background-color: #D5D68F;
+ color: black;
+ font-family: 'Times New Roman', serif;
+}
+.head{
+margin-bottom: 50px;
+font-family: 'Courier New', monospace;
+color: black;
+text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.btn{
+background-color: #75C1D8;
+}
+#box{
+background-color: #D5D68F;
+width: 300px;
+height: 200px;
+border-radius: 15px;
+margin-top: 200px;
+font-family: 'Times New Roman', serif;
+}
+#button{
+background-color: #75C1D8;
+width: 100px;
+margin-top: 10px;
+}
+#update{
+background-color: #D5D68F;
+}

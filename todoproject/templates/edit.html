@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+<div style="width: 500px;font-family: 'Times New Roman', serif;margin-top: 150px;border-radius: 15px; background-color: #D5D68F;" class="container center-box p-3 shadow">
+    <form method="POST">
+        {% csrf_token %}
+        <center>{{f.as_p}}</center>
+        <center><button type="submit" class="btn">Update</button></center>
+    </form>
+</div>
+{% endblock %}

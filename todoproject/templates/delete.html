@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+<div id="box" class="container center-box p-3 shadow">
+    <form method="POST">
+        {% csrf_token %}
+        <center><h1 style="margin-top:25px;">Are you sure?</h1></center>
+        <center><button id="button" class="btn">Yes</button></center>
+    </form>
+</div>
+{% endblock %}

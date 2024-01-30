@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container" style="font-family: 'Times New Roman', serif;">
+    <div id="update-card" class="card-header">
+        <div class="card-title">
+            Task Update
+        </div>
+        <div class="card-body">
+            <form method="POST">
+                {% csrf_token %}
+                <center>{{form.as_p}}</center>
+                <center><button type="submit" class="btn">Update</button></center>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}
